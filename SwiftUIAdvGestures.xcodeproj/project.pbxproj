@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F947C5992C8E270E00114177 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F947C5982C8E270E00114177 /* AudioPlayer.swift */; };
+		F989B91E2C8DF72A004FF807 /* SwiftUIAdvGesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989B91D2C8DF72A004FF807 /* SwiftUIAdvGesturesApp.swift */; };
+		F989B9202C8DF72A004FF807 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989B91F2C8DF72A004FF807 /* ContentView.swift */; };
+		F989B9222C8DF72D004FF807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F989B9212C8DF72D004FF807 /* Assets.xcassets */; };
+		F989B9252C8DF72D004FF807 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F989B9242C8DF72D004FF807 /* Preview Assets.xcassets */; };
+		F989B92D2C8DF7E6004FF807 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F989B92B2C8DF7E6004FF807 /* chimeup.mp3 */; };
+		F989B92E2C8DF7E6004FF807 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F989B92C2C8DF7E6004FF807 /* success.m4a */; };
+		F989B9352C8DFE40004FF807 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989B9342C8DFE40004FF807 /* OnboardingView.swift */; };
+		F989B9372C8DFE4D004FF807 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989B9362C8DFE4D004FF807 /* HomeView.swift */; };
+		F989B9392C8E092B004FF807 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989B9382C8E092B004FF807 /* CircleGroupView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F947C5982C8E270E00114177 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		F989B91A2C8DF72A004FF807 /* SwiftUIAdvGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAdvGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F989B91D2C8DF72A004FF807 /* SwiftUIAdvGesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvGesturesApp.swift; sourceTree = "<group>"; };
+		F989B91F2C8DF72A004FF807 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F989B9212C8DF72D004FF807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F989B9242C8DF72D004FF807 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F989B92B2C8DF7E6004FF807 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		F989B92C2C8DF7E6004FF807 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
+		F989B9332C8DFDE7004FF807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F989B9342C8DFE40004FF807 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F989B9362C8DFE4D004FF807 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F989B9382C8E092B004FF807 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F989B9172C8DF72A004FF807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F989B9112C8DF72A004FF807 = {
+			isa = PBXGroup;
+			children = (
+				F989B91C2C8DF72A004FF807 /* SwiftUIAdvGestures */,
+				F989B91B2C8DF72A004FF807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F989B91B2C8DF72A004FF807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F989B91A2C8DF72A004FF807 /* SwiftUIAdvGestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F989B91C2C8DF72A004FF807 /* SwiftUIAdvGestures */ = {
+			isa = PBXGroup;
+			children = (
+				F989B9332C8DFDE7004FF807 /* Info.plist */,
+				F989B9322C8DF922004FF807 /* Utilities */,
+				F989B9312C8DF910004FF807 /* Views */,
+				F989B92F2C8DF7F3004FF807 /* Sounds */,
+				F989B91D2C8DF72A004FF807 /* SwiftUIAdvGesturesApp.swift */,
+				F989B9302C8DF902004FF807 /* Screens */,
+				F989B9212C8DF72D004FF807 /* Assets.xcassets */,
+				F989B9232C8DF72D004FF807 /* Preview Content */,
+			);
+			path = SwiftUIAdvGestures;
+			sourceTree = "<group>";
+		};
+		F989B9232C8DF72D004FF807 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F989B9242C8DF72D004FF807 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F989B92F2C8DF7F3004FF807 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F989B92B2C8DF7E6004FF807 /* chimeup.mp3 */,
+				F989B92C2C8DF7E6004FF807 /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F989B9302C8DF902004FF807 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F989B91F2C8DF72A004FF807 /* ContentView.swift */,
+				F989B9342C8DFE40004FF807 /* OnboardingView.swift */,
+				F989B9362C8DFE4D004FF807 /* HomeView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F989B9312C8DF910004FF807 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F989B9382C8E092B004FF807 /* CircleGroupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F989B9322C8DF922004FF807 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F947C5982C8E270E00114177 /* AudioPlayer.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F989B9192C8DF72A004FF807 /* SwiftUIAdvGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F989B9282C8DF72D004FF807 /* Build configuration list for PBXNativeTarget "SwiftUIAdvGestures" */;
+			buildPhases = (
+				F989B9162C8DF72A004FF807 /* Sources */,
+				F989B9172C8DF72A004FF807 /* Frameworks */,
+				F989B9182C8DF72A004FF807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIAdvGestures;
+			productName = SwiftUIAdvGestures;
+			productReference = F989B91A2C8DF72A004FF807 /* SwiftUIAdvGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F989B9122C8DF72A004FF807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F989B9192C8DF72A004FF807 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F989B9152C8DF72A004FF807 /* Build configuration list for PBXProject "SwiftUIAdvGestures" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F989B9112C8DF72A004FF807;
+			productRefGroup = F989B91B2C8DF72A004FF807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F989B9192C8DF72A004FF807 /* SwiftUIAdvGestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F989B9182C8DF72A004FF807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F989B92E2C8DF7E6004FF807 /* success.m4a in Resources */,
+				F989B92D2C8DF7E6004FF807 /* chimeup.mp3 in Resources */,
+				F989B9252C8DF72D004FF807 /* Preview Assets.xcassets in Resources */,
+				F989B9222C8DF72D004FF807 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F989B9162C8DF72A004FF807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F989B9392C8E092B004FF807 /* CircleGroupView.swift in Sources */,
+				F989B9352C8DFE40004FF807 /* OnboardingView.swift in Sources */,
+				F989B9372C8DFE4D004FF807 /* HomeView.swift in Sources */,
+				F989B9202C8DF72A004FF807 /* ContentView.swift in Sources */,
+				F989B91E2C8DF72A004FF807 /* SwiftUIAdvGesturesApp.swift in Sources */,
+				F947C5992C8E270E00114177 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F989B9262C8DF72D004FF807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F989B9272C8DF72D004FF807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F989B9292C8DF72D004FF807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAdvGestures/Preview Content\"";
+				DEVELOPMENT_TEAM = 2G45DNQ4LC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAdvGestures/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tutorials.SwiftUIAdvGestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F989B92A2C8DF72D004FF807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAdvGestures/Preview Content\"";
+				DEVELOPMENT_TEAM = 2G45DNQ4LC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAdvGestures/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tutorials.SwiftUIAdvGestures;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F989B9152C8DF72A004FF807 /* Build configuration list for PBXProject "SwiftUIAdvGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F989B9262C8DF72D004FF807 /* Debug */,
+				F989B9272C8DF72D004FF807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F989B9282C8DF72D004FF807 /* Build configuration list for PBXNativeTarget "SwiftUIAdvGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F989B9292C8DF72D004FF807 /* Debug */,
+				F989B92A2C8DF72D004FF807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F989B9122C8DF72A004FF807 /* Project object */;
+}
